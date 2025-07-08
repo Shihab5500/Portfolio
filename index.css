@@ -1,0 +1,229 @@
+/* Nav styles */
+
+nav{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.banner-description{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark2{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* header */
+
+.header{
+    background-image: url(/portfolio-resources/images/developer.png), url(/portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* banner styles */
+
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-pic{
+    width: 580px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.item-description{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0px 3px 20px 0px #eb6f0a;
+    border-radius: 20px;
+}
+
+main section{
+    margin-bottom: 130px;
+}
+
+.skill-description{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skill-title{
+    font-size: 25px;
+}
+
+/* resume section styles */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.resume-colum-title{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.experience-title{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* footer styles */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.section-title2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-column p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-column a{
+    margin-right: 20px;
+}
