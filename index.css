@@ -227,3 +227,49 @@ footer input[type="text"], footer textarea{
 .footer-column a{
     margin-right: 20px;
 }
+
+.hide{
+    display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width:576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column{
+        width: 90%;
+    }
+    .about{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .btn-primary{
+        display: block;
+        margin-top: 20px;
+    }
+}
